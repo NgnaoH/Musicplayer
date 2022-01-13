@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.458ae447.css",
-    "main.js": "/static/js/main.4cb5dc09.js",
-    "static/js/787.75429ea3.chunk.js": "/static/js/787.75429ea3.chunk.js",
-    "static/media/theonethatgotaway.mp3": "/static/media/theonethatgotaway.3f1cd5e94e9bc4c9ed5f.mp3",
-    "static/media/crescentmoon.mp3": "/static/media/crescentmoon.f2ff19815e2e304bc100.mp3",
-    "static/media/doubletake.mp3": "/static/media/doubletake.655346e849efd0ba904e.mp3",
-    "static/media/nothing.mp3": "/static/media/nothing.12c439ce8eaabb5bdcdb.mp3",
-    "static/media/doubletake.jpeg": "/static/media/doubletake.1a156e7dd9df7c4e1d40.jpeg",
-    "static/media/crescentmoon.jpeg": "/static/media/crescentmoon.a71b812d28608d16a79c.jpeg",
-    "static/media/theonethatgotaway.jpeg": "/static/media/theonethatgotaway.a8b468136a08b506089f.jpeg",
-    "static/media/nothing.jpeg": "/static/media/nothing.ed9cbdc3fbcd337483ed.jpeg",
-    "index.html": "/index.html",
-    "main.458ae447.css.map": "/static/css/main.458ae447.css.map",
-    "main.4cb5dc09.js.map": "/static/js/main.4cb5dc09.js.map",
-    "787.75429ea3.chunk.js.map": "/static/js/787.75429ea3.chunk.js.map"
+    "main.css": "/player/static/css/main.458ae447.css",
+    "main.js": "/player/static/js/main.70a5a96a.js",
+    "static/js/787.75429ea3.chunk.js": "/player/static/js/787.75429ea3.chunk.js",
+    "static/media/theonethatgotaway.mp3": "/player/static/media/theonethatgotaway.3f1cd5e94e9bc4c9ed5f.mp3",
+    "static/media/crescentmoon.mp3": "/player/static/media/crescentmoon.f2ff19815e2e304bc100.mp3",
+    "static/media/doubletake.mp3": "/player/static/media/doubletake.655346e849efd0ba904e.mp3",
+    "static/media/nothing.mp3": "/player/static/media/nothing.12c439ce8eaabb5bdcdb.mp3",
+    "static/media/doubletake.jpeg": "/player/static/media/doubletake.1a156e7dd9df7c4e1d40.jpeg",
+    "static/media/crescentmoon.jpeg": "/player/static/media/crescentmoon.a71b812d28608d16a79c.jpeg",
+    "static/media/theonethatgotaway.jpeg": "/player/static/media/theonethatgotaway.a8b468136a08b506089f.jpeg",
+    "static/media/nothing.jpeg": "/player/static/media/nothing.ed9cbdc3fbcd337483ed.jpeg",
+    "index.html": "/player/index.html",
+    "main.458ae447.css.map": "/player/static/css/main.458ae447.css.map",
+    "main.70a5a96a.js.map": "/player/static/js/main.70a5a96a.js.map",
+    "787.75429ea3.chunk.js.map": "/player/static/js/787.75429ea3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.458ae447.css",
-    "static/js/main.4cb5dc09.js"
+    "static/js/main.70a5a96a.js"
   ]
 }
