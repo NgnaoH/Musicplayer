@@ -14,10 +14,11 @@ import {
 import DiskSong from "../DiskSong";
 import IndicatorSong from "../IndicatorSong";
 import SongName from "../SongName";
-import { listSong } from "../../libs/ListSong";
-import useInterval from "../../hooks/useInterval";
-import { generateSrc, shuffle } from "../../helpers/shuffle";
 import Song from "../Song";
+import useInterval from "../../hooks/useInterval";
+import { listSong } from "../../libs/ListSong";
+import { shuffle } from "../../helpers/shuffle";
+import { generateSrc } from "../../helpers/generateSrc";
 
 const Player = () => {
   const player = useRef();
@@ -48,6 +49,7 @@ const Player = () => {
     setCurrentSong(() => src[index]);
     setName(() => playlist[index].name);
     setImage(() => playlist[index].image);
+    setMaxTime(() => 0)
     player.current.play();
   };
 
@@ -62,6 +64,7 @@ const Player = () => {
     setCurrentSong(() => src[index]);
     setName(() => playlist[index].name);
     setImage(() => playlist[index].image);
+    setMaxTime(() => 0)
     player.current.play();
   };
 
@@ -101,6 +104,7 @@ const Player = () => {
 
   const handleSelectSong = (index) => {
     player.current.stop();
+    setMaxTime(() => 0)
     setCurrentIndexSong(() => index);
     setCurrentSong(() => src[index]);
     setName(() => playlist[index].name);
@@ -111,6 +115,7 @@ const Player = () => {
   };
 
   const onPlay = () => {
+    setMaxTime(() => Math.round(player.current._howler._duration));
     setIsReset(() => false);
   };
   const onPause = () => {};

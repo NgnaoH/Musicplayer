@@ -4,6 +4,13 @@
   position: relative;
 }
 
+.timer {
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+}
+
 #indicator {
   -webkit-appearance: none;
   width: 100%;
