@@ -1,0 +1,60 @@
+.rotate-animate {
+  -webkit-animation: spin linear infinite;
+  -moz-animation: spin linear infinite;
+  animation: spin linear infinite;
+  -webkit-animation-duration: 24s;
+  -moz-animation-duration: 24s;
+  animation-duration: 24s;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.move-animate {
+  -webkit-animation: move 16s linear infinite;
+  -moz-animation: move 16s linear infinite;
+  animation: move 16s linear infinite;
+}
+
+@-moz-keyframes move {
+  100% {
+    -moz-transform: translateX(270px);
+  }
+}
+@-webkit-keyframes move {
+  100% {
+    -webkit-transform: translateX(270px);
+  }
+}
+@keyframes move {
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+.paused {
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+.running {
+  -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  animation-play-state: running;
+}

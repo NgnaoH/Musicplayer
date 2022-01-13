@@ -1,0 +1,106 @@
+.player-container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.player {
+  width: 400px;
+  height: 72%;
+  padding: 80px 32px 32px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 32px;
+  position: relative;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 35px 35px 69px #bfbfbf, -35px -35px 69px #ffffff;
+}
+
+.player-header {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  width: calc(100% - 64px);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+}
+
+.song-name {
+  width: 80%;
+}
+
+.song-list {
+  margin-left: auto;
+}
+
+.player-section {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+
+.player-footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.song-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playlist {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  height: 0;
+  backdrop-filter: blur(8px) saturate(200%);
+  -webkit-backdrop-filter: blur(8px) saturate(200%);
+  background-color: rgba(226, 237, 242, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding-bottom: 0;
+  padding-top: 0;
+  transition: all 0.4s linear;
+  visibility: hidden;
+}
+
+.playlist.active {
+  visibility: visible;
+  height: 100%;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.playlist .list {
+  padding: 0 32px;
+  border-top: 2px solid rgba(255, 255, 255, 0.125);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.125);
+  opacity: 0;
+  visibility: hidden;
+  transition: all .2s linear;
+}
+
+.playlist .list.active {
+  opacity: 1;
+  visibility: visible;
+  transition: all .2s linear 0.4s;
+}
+
+.playlist .item {
+  padding: 1rem 0;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.125);
+}
+.playlist .item:last-child {
+  border: none
+}

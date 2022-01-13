@@ -1,0 +1,15 @@
+.song-name {
+  overflow: hidden;
+  transition: all 0.4s linear;
+}
+
+.name-wrapper p {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.name-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}

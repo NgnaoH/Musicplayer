@@ -1,0 +1,39 @@
+.button-neumor {
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 4px 4px 8px #c4c4c4, -4px -4px 8px #ffffff;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.button-control {
+  margin: 0 12px;
+}
+
+.play {
+  box-shadow: 8px 8px 8px #d6d6d6, -8px -8px 8px #ffffff;
+}
+
+.button-options {
+  box-shadow: 2px 2px 5px #c2c2c2, -2px -2px 5px #ffffff;
+}
+
+.button-options.active {
+  box-shadow: inset 2px 2px 5px #c2c2c2, inset -2px -2px 5px #ffffff;
+}
+
+.song-list {
+  box-shadow: 5px 5px 8px #e3e3e3, -5px -5px 8px #ffffff;
+}
+
+.song-list svg {
+  -webkit-animation-duration: 8s;
+  -moz-animation-duration: 8s;
+  animation-duration: 8s;
+}
+
+.song-list.active {
+  box-shadow: inset 5px 5px 8px #e3e3e3, inset -5px -5px 8px #ffffff;
+}
