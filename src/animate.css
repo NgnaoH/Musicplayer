@@ -32,12 +32,12 @@
 
 @-moz-keyframes move {
   100% {
-    -moz-transform: translateX(270px);
+    -moz-transform: translateX(0);
   }
 }
 @-webkit-keyframes move {
   100% {
-    -webkit-transform: translateX(270px);
+    -webkit-transform: translateX(0);
   }
 }
 @keyframes move {

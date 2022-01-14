@@ -6,8 +6,9 @@
 }
 
 .player {
-  width: 400px;
-  height: 72%;
+  max-width: 400px;
+  width: 100%;
+  min-width: 300px;
   padding: 80px 32px 32px;
   display: flex;
   flex-direction: column;

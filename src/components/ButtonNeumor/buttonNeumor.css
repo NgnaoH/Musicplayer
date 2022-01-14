@@ -16,6 +16,10 @@
   box-shadow: 8px 8px 8px #d6d6d6, -8px -8px 8px #ffffff;
 }
 
+.play:active, .prev:active, .next:active {
+  box-shadow: 2px 2px 2px #d6d6d6, -2px -2px 2px #ffffff;
+}
+
 .button-options {
   box-shadow: 2px 2px 5px #c2c2c2, -2px -2px 5px #ffffff;
 }
